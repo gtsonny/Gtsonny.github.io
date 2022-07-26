@@ -1,0 +1,101 @@
+/* CSS RESET */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+/* GENERAL STYLES */
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(212, 45%, 89%);
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  width: 325px;
+  margin: auto;
+  background-color: hsl(0, 0%, 100%);
+  padding: 1em;
+  border-radius: 15px;
+  align-items: center;
+  justify-content: center;
+}
+
+h1,
+p {
+  width: 90%;
+  font-family: "Outfit", sans-serif;
+  text-align: center;
+}
+
+img {
+  border-radius: 15px;
+}
+
+h1 {
+  font-size: 22px;
+  font-weight: 700;
+  color: hsl(218, 44%, 22%);
+  line-height: 1.2;
+  padding: 0.75em 0em;
+}
+
+p {
+  font-weight: 400;
+  font-size: 15px;
+  color: hsl(220, 15%, 55%);
+  padding-bottom: 2em;
+  line-height: 1.3
+}
